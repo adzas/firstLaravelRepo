@@ -23,16 +23,7 @@
 <body>
     <div id="app">
         <main class="container">
-            
-            <div style="text-align: center">
-                <img width="300" src="{{ asset('img/profil.jpg') }}" alt="Andrzej Nogala Picture" />
-                <h3 style="margin-top: 1em;">Andrzej Nogala</h3>
-                <p>
-                    Witaj na mojej stronie.
-                    To miejsce jest jeszcze w budowie, ale niedługo powinno wyglądać lepiej :)
-                </p>
-            </div>
-
+            @yield('content')
         </main>
     </div>
 </body>
